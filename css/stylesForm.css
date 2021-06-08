@@ -1,0 +1,141 @@
+.form {
+    max-width: 550px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.form__item {
+    display: flex;
+    padding-bottom: 30px;
+    position: relative;
+
+}
+.formLabel {
+    width: 20%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form__input {
+    width: 70%;
+    height: 25px;
+}
+.options__item {
+    display: inline-block;
+}
+.form__title {
+    float: left;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.options {
+    margin-bottom: 30px;
+}
+.contacts {
+    padding-left: 30px;
+}
+.select {
+    margin-left: 25px;
+}
+.photo {
+    padding-left: 50px;
+    padding-right: 25px;
+}
+
+.checkbox {
+    padding-left: 20%;
+}
+.form__resetButton{
+    margin-left: 20%;
+
+}
+textarea {
+    height: 70px;
+    width: 70%;
+    resize: none;
+
+}
+
+.form__resetButton {
+    border: none;
+    background-color: #fff;
+    background-color: #428bca;
+    border: 1px solid;
+    border-radius: 3px ;
+    border-color: #428bca;
+    height: 35px;
+}
+
+.form__button {
+    border: none;
+    background-color: #fff;
+    background-color: #dddddd;
+    height: 35px;
+    border: 1px solid;
+    border-color: #dddddd;
+    border-color: #dddddd;
+    border-radius: 3px;
+}
+
+.form__item-contact {
+    margin-left: 10px;
+}
+
+.contactButton {
+    background-color: white;
+    border: none;
+
+    margin-left: -50px;
+}
+
+.noContactInputs {
+    display: flex;
+    margin-left: 20%;
+    padding-bottom: 20px;
+}
+.noContactName {
+    margin-left: -50px;;
+}
+
+.contactButton2 {
+    background-color: white;
+    border: none;
+    margin-left: -83px;
+}
+
+small{
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.form__item.error input {
+    border-color: #e75e3c;
+
+}
+
+.form__item.error small {
+    visibility: visible;
+    border-color: #e75e3c;
+    font-size: 18px;
+    color: #e75e3c;
+    margin-left: 110px;
+}
+
+
+.form__item.success input {
+    border-color: #2ecc71;
+
+}
+
+
+
+
+
+
+
+
+
+
+

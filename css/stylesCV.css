@@ -1,0 +1,63 @@
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+main {
+    width: 740px;
+    margin: 0 auto;
+    background-color: #dcdfdb86;
+
+}
+
+.wrapper{
+    display: flex;
+    padding: 10px;
+}
+
+.sidebar{
+    flex: 1;
+    background-color: #d9c3a7;
+    border-radius: 8px;
+}
+
+.profileInformation{
+    flex: 2;
+    margin-left: 10px;
+
+}
+
+img{
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.sidebar__photo{
+    text-align: center;
+}
+
+.profileInformation__name{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.nameOfColumn{
+
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sidebar__contact{
+    text-align: center;
+}
+
+.sidebar__education{
+    text-align: center;
+}

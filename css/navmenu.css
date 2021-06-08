@@ -1,0 +1,23 @@
+
+.navMenu__item {
+    display:inline-block;
+    padding: 0 20px;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+.navMenu
+{
+    text-decoration: none;
+    text-align: center;
+}
+.navMenu__item a{
+    text-decoration: none;
+    color: black;
+}
+.navMenu__item:hover a{
+    background-color: grey;
+    color:white;
+    cursor: pointer;
+}
